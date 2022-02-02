@@ -1,0 +1,10 @@
+/* It's not SCSS, despite the name... */
+
+body {
+	background-color: #111;
+	color: #eee;
+}
+head, article, footer {
+	max-width: 300px;
+	width: 80%;
+}
