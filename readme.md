@@ -1,7 +1,5 @@
-<span style="text-align:center"> 
-<h1>Site Gen with VBS</h1>
-<p>(The Ultimate Language)</p>
-</span>
+<h1 style="text-align:center">Site Gen with VBS</h1>
+<p style="text-align:center;font-style: italic">(The Ultimate Language)</p>
 
 ### How it works
 
