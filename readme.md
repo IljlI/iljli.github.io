@@ -1,6 +1,6 @@
 <span style="text-align:center"> 
-# Site Gen with VBS 
-(The Ultimate Language)
+<h1>Site Gen with VBS</h1>
+<p>(The Ultimate Language)</p>
 </span>
 
 ### How it works
