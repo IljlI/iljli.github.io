@@ -40,6 +40,27 @@
 			Footer = z(1)
 
 		' Build Index
+		' Loop Folder
+			For Each f In CreateObject("Scripting.FileSystemObject").GetFolder("dft").Files
+				Set g = f.OpenAsTextStream
+				esc = False
+				d = Split(f.Name,"-")
+				WScript.Echo d(0) & " / " & d(1) & " / " & d(2)
+			' Loop File (to find title tag)
+				Do Until g.AtEndOfStream Or esc = True
+					l = g.ReadLine
+					' Found 'Title'
+					If InStr(l,"<h1>") > 0 Then
+						t = Replace(l, "<h1>", "")
+						t = Replace(t, "</h1>", "")
+						WScript.Echo t
+					' Escape Looping File
+						esc = True
+					End If
+				Loop
+				
+			Next
+					
 			
 		' Build Pages
 		
