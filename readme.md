@@ -35,10 +35,10 @@ into `cmd.exe` and it'll work
 - Create a file called `build.cmd` or `b.cmd` or something. Writing the following
 in that file should work nicely.
 
-`
+```
 @echo off
 cscript bld.vbs
-`
+```
 
 ### Wha-?
 
