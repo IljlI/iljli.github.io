@@ -18,7 +18,7 @@ it adds is just the raw title you input.
 
 This should be extremely portable; I don't *think* this needs anything
 interesting or unusual installed on a Windows machine. Also it's just funny.
-VBScript is fun. I find it more predictable than Bash. 
+VBScript is fun. I find it more predictable than ---Bash--- Batch (...oops). 
 
 ### How?
 
