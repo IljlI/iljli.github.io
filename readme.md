@@ -44,5 +44,5 @@ cscript bld.vbs
 
 If you decide to use this for some crazy reason, and want help (or if you want
 to improve this), just contact me on
-[Twitter](https://twitter.com/HsvqZ1uD6tASGbM) or submit an Issue.
+[Twitter](https://twitter.com/OrderingCorn) or submit an Issue.
 
